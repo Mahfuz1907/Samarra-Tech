@@ -1,0 +1,26 @@
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Momo+Signature&display=swap");
+@plugin "daisyui" {
+  themes: lemonade;
+}
+
+.momo {
+  font-family: "Momo Signature", cursive;
+}
+
+.navbar-options {
+  border: 2px solid #05df72;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-radius: 10px;
+  color: white;
+  background: #05df72;
+  cursor: pointer;
+}
+
+.navbar-options:hover {
+  background: white;
+  color: #05df72;
+}
